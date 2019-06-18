@@ -1,0 +1,57 @@
+cd C:\Users\vidhi.thakkar\Desktop\Smart Parking Demo\Parking-Demo\parking_lot
+
+python main.py --image images/BM_10.jpg --data data/coordinates_jay.yml --video videos/5_June.mp4
+
+python main.py --data data/coordinates_jay.yml --video videos/6_June.mp4
+
+python main.py --data data/coordinates_jay.yml --video videos/7_June.mp4
+
+python main.py --image images/BM_10.jpg --data data/coordinates_jay.yml --video videos/5_June.mp4
+
+
+python main.py --image images/parking_lot_1.png --data data/coordinates_1.yml --video videos/parking_lot_1.mp4 --start-frame 400
+
+Works Fine:
+python main.py --image images/Cam_10_Blank_Image.jpg --data data/coordinates_1.yml --video videos/Cam_10_1_V.mp4 
+
+python main.py --image images/Cam_12_3_I.jpg --data data/coordinates_2.yml --video videos/Cam_12_2_V.mp4 
+
+python main.py --image images/BM_10.jpg --data data/coordinates_1.yml --video videos/5_June.mp4
+
+
+python main.py --image images/Cam_12_1_I.jpg --data data/coordinates_1.yml --video videos/Cam_12_2_V.mp4 
+
+python main.py --image images/Cam_12_2_I.jpg --data data/coordinates_1.yml --video videos/Cam_12_2_V.mp4 
+
+
+
+python main.py --image images/parking_lot_1.png --data data/coordinates_1.yml --video videos/parking_lot_1.mp4 
+
+
+
+
+cd C:\Users\vidhi.thakkar\Desktop\Parking Demo\parking_lot
+
+python main.py --image images/parking_lot_1.png --data data/coordinates_1.yml --video videos/parking_lot_1.mp4 --start-frame 400
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Misclassification:
+
+python main.py --image images/Cam_10_Blank_Image.jpg --data data/coordinates_1.yml --video videos/Cam_10_2_V.mp4
+python main.py --image images/Cam_12_Blank_Image.jpg --data data/coordinates_1.yml --video videos/Cam_12_1_V.mp4  
+
+python main.py --image images/Cam_12_Blank_Image.jpg --data data/coordinates_1.yml --video videos/Cam_12_2_V.mp4 
